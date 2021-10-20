@@ -1,0 +1,14 @@
+﻿<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>昵图网</ShortName>
+  <Description>昵图网搜索</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://www.nipic.com/favicon.ico</Image>
+  <Url type="text/html" template="https://soso.nipic.com/">
+    <Param name="q" value="{searchTerms}"/>
+    <Param name="g" value="1"/>
+    <Param name="or" value="0"/>
+    <Param name="y" value="108"/>
+  </Url>
+  <moz:SearchForm>https://www.nipic.com/</moz:SearchForm>
+</OpenSearchDescription>
